@@ -9,7 +9,7 @@
 		"start": "node --experimental-json-modules --no-warnings index.js"
 	},
 	"dependencies": {
-		"@deepgram/sdk": "^1.0.1",
+		"@deepgram/sdk": "^1.4.2",
 		"node-mic": "^1.0.1"
 	},
 	"devDependencies": {

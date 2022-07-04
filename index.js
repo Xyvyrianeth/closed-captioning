@@ -1,5 +1,7 @@
 import fs from "fs";
-import { Deepgram } from "@deepgram/sdk";
+// import { Deepgram } from "@deepgram/sdk";
+import pkg from '@deepgram/sdk';
+const { Deepgram } = pkg;
 import NodeMic from "node-mic";
 import config from "./config.json" assert { type: "json" };
 
